@@ -1,1 +1,1 @@
-This repo is for my fresh linux setups. This repo contains an edited version of lcpz's awesome-copycats that I use for my personal setup. I editted the icons on the multicolor theme to fit my green on black color preference
+This repo is for my fresh debian based linux setups. This repo contains an edited version of lcpz's awesome-copycats that I use for my personal setup. I editted the icons on the multicolor theme to fit my green on black color preference
