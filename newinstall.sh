@@ -22,3 +22,6 @@ cp /home/alb/freshawesome/rc.lua /home/alb/.config/awesome/
 cp -r /home/alb/freshawesome/themes /home/alb/.config/awesome/
 cp /home/alb/freshawesome/.Xresources /home/alb
 cp /home/alb/freshawesome/.zshrc /home/alb
+
+chsh -s $(which zsh)
+systemctl reboot
