@@ -16,7 +16,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/zsh-autosu
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
 #freshawesome grab
-git clone https://github.com/Audalb/freshawesome
 cp -r freshawesome/freedesktop ~/.config/awesome/
 cp -r freshawesome/lain ~/.config/awesome/
 cp freshawesome/rc.lua ~/.config/awesome/
