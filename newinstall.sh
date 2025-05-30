@@ -1,5 +1,4 @@
-#ParrotOS fresh setup
-
+#ParrotOS fresh setup script
 sudo apt update && upgrade -y
 sudo apt install zsh awesome xfonts-terminus rxvt-unicode
 
