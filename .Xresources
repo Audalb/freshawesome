@@ -1,0 +1,60 @@
+! generic
+*.foreground: #00cc00
+*.background: #000000
+*.cursorColor: #00FF00
+
+! urxvt
+urxvt.font:                   xft:Terminus:size=12:antialias=true:hinting=true:style=Bold
+urxvt.url-launcher:           /usr/bin/xdg-open
+urxvt.matcher.button:         1
+urxvt.scrollBar:              false
+urxvt.termName:               rxvt-unicode-256color
+urxvt.saveLines:              10000
+urxvt.inheritPixmap:          true
+urxvt.shading:                20
+urxvt.clipboard.autocopy:     true
+urxvt.perl-ext-common:        default,selection-to-clipboard,matcher,keyboard-select,resize-font
+urxvt.keysym.C-Up:            resize-font:bigger 
+urxvt.keysym.C-Down:          resize-font:smaller
+urxvt.transparent:            true
+urxvt.buffered:               true
+urxvt.jumpScroll:             false
+urxvt.scrollTtyKeypress:      true
+urxvt.scrollTtyOutput:        false
+urxvt.scrollWithBuffer:       false
+urxvt.scrollstyle:            plain
+urxvt.secondaryScroll:        false
+urxvt.xftAntialias:           true
+!urxvt.color4:                 RoyalBlue
+!urxvt.color12:                RoyalBlue
+urxvt.matcher.rend.0:         Bold fg6
+urxvt.cursorBlink:            true
+urxvt.mapAlert:               true
+urxvt.pointerBlank:           true
+urxvt.resource:               value
+urxvt.iso14755:               false
+urxvt.iso14755_52:            false
+
+! xterm
+xterm*VT100*geometry: 80x24
+xterm*faceName: xft:xos4 Terminus:size=12:antialias=true:hinting=true:style:Bold
+xterm*faceSize: 12
+xterm*renderFont: true
+xterm*utf8: always
+xterm*utf8Title: true
+xterm*locale: true
+xterm*cursorBlink: true
+xterm*selectToClipboard: true
+xterm*SaveLines: 10000
+xterm*transparent: true
+XTerm*trimSelection: true
+XTerm*cutNewline: false
+XTerm*highlightSelection: true
+
+! cursor
+Xcursor.theme: Adwaita
+Xcursor.size: 14
+
+! xft
+Xft.antialias: true
+Xft.dpi: 108
